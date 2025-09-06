@@ -224,7 +224,7 @@ export default function App() {
             <a href="#home" className="shrink-0" aria-label={`${company.name} home`}>
               <div className="h-10 w-10 rounded-full overflow-hidden ring-1 ring-slate-200 bg-white">
                 <img
-                  src={company.logoUrl || "src/logo.png"}
+                  src={company.logoUrl || "./logo.png"}
                   alt={`${company.name} logo`}
                   className="h-full w-full object-contain"
                   loading="eager"
@@ -504,7 +504,7 @@ export default function App() {
           <div className="order-1 md:order-2">
             <div className="aspect-[16/10] rounded-2xl overflow-hidden ring-1 ring-slate-200">
               <img
-                src="src/logo.png"
+                src="./logo.png"
                 alt="Travel planning desk"
                 className="h-full w-full object-cover"
                 loading="lazy"
